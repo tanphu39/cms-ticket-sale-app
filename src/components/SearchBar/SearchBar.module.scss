@@ -1,0 +1,19 @@
+@import '../../assets/css/common.scss';
+
+input {
+    font-family: $app-font;
+    width: 20rem;
+    height: 2rem;
+}
+
+.primary {
+    background: #EDEDED;
+    border: none;
+    border-radius: 12px;
+}
+
+.secondary {
+    background: #F7F7F8;
+    border: none;
+    border-radius: 8px;
+}

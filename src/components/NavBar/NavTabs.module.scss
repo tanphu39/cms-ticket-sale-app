@@ -1,0 +1,17 @@
+@import '../../assets/css/common.scss';
+
+.isActive {
+    background: #FFB800;
+    border-radius: 8px;
+    button {
+        color: white;
+        font-weight: bold;
+    }
+    path {
+
+        fill: white;
+    }
+    g {
+        opacity: 1;
+    }
+}
