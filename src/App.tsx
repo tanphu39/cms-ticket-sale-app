@@ -2,10 +2,14 @@ import React from 'react';
 import NavBar from './components/NavBar/NavBar'
 import Profile from './components/Profile/Profile'
 import PublicRoute from './routes/PublicRoute'
-
 import styles from './App.module.scss'
 
+// import {addDummyDataOnce ,addDummyPackageOnce} from './firebase/dummyData'
+
 function App() {
+
+  // addDummyDataOnce();
+  // addDummyPackageOnce();
 
   return (
     <div className={`${styles['App']}`}>
@@ -21,9 +25,12 @@ function App() {
           <PublicRoute/>
         </div>
       </div>
-
     </div>
   );
 }
 
 export default App;
+
+//Pagenation 
+//Date Picker
+//Connect database

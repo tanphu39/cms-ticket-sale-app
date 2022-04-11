@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  margin: 5% 2% 0 0;
+  width: 83vw;
+  height: 86vh;
+  background: white;
+  border-radius: 24px;
+  padding: 2% 0 0 0;
+}
+
+.title {
+  margin: 0 2% 2% 2%;
+}
+/*# sourceMappingURL=HomePage.module.css.map */

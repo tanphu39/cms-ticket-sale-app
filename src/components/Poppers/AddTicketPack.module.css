@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  z-index: 1;
+  border-radius: 10px;
+  width: 35vw;
+  height: auto;
+  background: white;
+  position: fixed;
+  margin: 0;
+  left: 30vw;
+  top: 15vh;
+  padding: 2%;
+  font-family: "Montserrat";
+}
+
+.title {
+  position: relative;
+  left: 35%;
+  margin: 0 0 1% 0;
+}
+
+.priceFlex, .dateFlex, .buttonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input--border {
+  font-family: "Montserrat";
+  border-radius: 8px;
+  height: 2rem;
+  border: 1px solid #A5A8B1;
+}
+
+.input--fill {
+  font-family: "Montserrat";
+  border-radius: 8px;
+  height: 2rem;
+  border: none;
+  background: #F1F4F8;
+  color: #A5A8B1;
+}
+
+.input--date {
+  font-family: "Montserrat";
+  border-radius: 8px;
+  height: 2rem;
+  border: 1px solid #A5A8B1;
+}
+
+.input--dropdown {
+  font-family: "Montserrat";
+  border-radius: 8px;
+  height: 2rem;
+  border: 1px solid #A5A8B1;
+  background: white;
+}
+/*# sourceMappingURL=AddTicketPack.module.css.map */

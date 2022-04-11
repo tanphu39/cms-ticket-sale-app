@@ -25,7 +25,7 @@ const NavTabs: React.FC<Props> = ({
 }) => {
 
     const navtabsClassName = cn({
-        [styles['container']]: true,
+        [styles['navButtons']]: true,
         [styles['isActive']]: isActive,
     })
 
@@ -65,7 +65,7 @@ const NavTabs: React.FC<Props> = ({
     
     return (
         <div className={navtabsClassName}>
-            <button key={key} onClick={(event) => {handleClick(event, toPage)}}>
+            <button key={key} onClick={(event) => {handleClick(event, toPage)}} className={`${styles['navButtons']}`}>
                 {Logo}
                 {userTitle}
             </button>

@@ -1,26 +1,27 @@
 import React from 'react'
 import styles from './SearchBar.module.scss'
 import cn from 'classnames'
+import {ReactComponent as Magnifier} from '../../assets/icons/magnifier.svg'
 
 interface Props {
     type: 'primary' | 'secondary'
-    className?: string
     placeholder: string
 }
 
 const SearchBar: React.FC<Props>  = ({
     type='primary',
-    className="",
     placeholder="",
 }) => {
     const searchbarClassName = cn({
+        [styles['container']]: true,
         [styles['primary']]: type === 'primary',
         [styles['secondary']]: type === 'secondary',
     })
 
     return (
-        <div>
-            <input type="text" placeholder={placeholder} className={searchbarClassName}/>
+        <div className={searchbarClassName}>
+            <input type="text" placeholder={placeholder}/>
+            <Magnifier/>
         </div>
     )
 }

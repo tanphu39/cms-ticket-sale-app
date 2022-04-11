@@ -1,19 +1,30 @@
 @import '../../assets/css/common.scss';
 
-input {
-    font-family: $app-font;
-    width: 20rem;
-    height: 2rem;
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 25rem;
+    height: 2.8rem;
+    margin: 0;
+
+    & input {
+        font-family: $app-font;
+        border: none;
+        background: none;
+        margin: 0 0 0 4%;
+        width: 20rem;
+        height: 2.8rem;
+    }
+    &.primary {
+        background: #EDEDED;
+        border: none;
+        border-radius: 12px;
+    }
+    &.secondary {
+        background: #F7F7F8;
+        border: none;
+        border-radius: 8px;
+    }
 }
 
-.primary {
-    background: #EDEDED;
-    border: none;
-    border-radius: 12px;
-}
-
-.secondary {
-    background: #F7F7F8;
-    border: none;
-    border-radius: 8px;
-}

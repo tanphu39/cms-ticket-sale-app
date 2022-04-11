@@ -1,0 +1,69 @@
+@import '../assets/css/common.scss';
+
+.container {
+    margin: 5% 2% 0 0;
+    padding: 2% 0 0 0;
+    width: 83vw;
+    height: 86vh;
+
+    background: white;
+    border-radius: 24px;
+}
+
+.headFlex {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 2%;
+}
+
+.buttonsFlex {
+    display: flex;
+    justify-content: space-between;
+
+    width: 20rem;
+}
+
+.title {
+    margin: 0 2% 2% 2%;
+}
+
+.paginateContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 20%;
+
+    list-style: none;
+    cursor: pointer;
+    .pages {
+        padding: 0.15rem 0.4rem;
+    }
+    .activePage {
+        border: 2px solid $orange;
+        border-radius: 4px;
+
+        color: $orange;
+    }
+}
+
+.tableContainer {
+    margin: 2% 2%;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+    vertical-align: center;
+    border: none;
+
+    & th {
+        height: 2.5rem;
+        background: #F1F4F8;
+    }
+    & td {
+        height: 2rem;
+        background: white;
+    }
+}

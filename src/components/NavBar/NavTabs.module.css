@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.navButtons {
+  border: none;
+  background: none;
+  font-family: "Montserrat";
+  color: #6A625D;
+  font-weight: medium;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 6% 0 0 6%;
+  width: 100%;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navButtons.isActive {
+  background: #FFB800;
+  border-radius: 8px;
+}
+
+.navButtons.isActive button {
+  color: white;
+  font-weight: bold;
+}
+
+.navButtons.isActive path {
+  fill: white;
+}
+
+.navButtons.isActive g {
+  opacity: 1;
+}
+/*# sourceMappingURL=NavTabs.module.css.map */

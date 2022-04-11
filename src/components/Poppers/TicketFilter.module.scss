@@ -1,0 +1,23 @@
+@import '../../assets/css/common.scss';
+
+.container {
+    z-index: 1;
+    border-radius: 10px;
+    width: 35vw;
+    height: auto;
+
+    background: white;
+    position: fixed;
+    margin: 0;
+    left: 30vw;
+    top: 15vh;
+    padding: 2%;
+
+    font-family: $app-font;
+}
+
+.dateFlex {
+    display: flex;
+    justify-content: flex-start;
+}
+

@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  margin: 5% 2% 0 0;
+  width: 83vw;
+  height: 86vh;
+  background: white;
+  border-radius: 24px;
+  padding: 2% 0 0 0;
+}
+
+.headFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 2%;
+}
+
+.buttonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 20rem;
+}
+
+.title {
+  margin: 0 2% 2% 2%;
+}
+
+.tableContainer {
+  margin: 2% 2%;
+}
+
+.paginateContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+  list-style: none;
+  cursor: pointer;
+}
+
+.paginateContainer .pages {
+  padding: 0.15rem 0.4rem;
+}
+
+.paginateContainer .activePage {
+  border: 2px solid #FF993C;
+  border-radius: 4px;
+  color: #FF993C;
+}
+
+.table {
+  width: 100%;
+  text-align: left;
+  vertical-align: center;
+  border: none;
+}
+
+.table th {
+  height: 2.5rem;
+  background: #F1F4F8;
+}
+
+.table td {
+  height: 2rem;
+  background: white;
+}
+/*# sourceMappingURL=TicketPage.module.css.map */

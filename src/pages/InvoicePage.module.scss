@@ -1,0 +1,91 @@
+@import '../assets/css/common.scss';
+
+.container {
+    display: flex;
+    margin: 3% 2% 0 0;
+    padding: 2% 0 0 0;
+
+    width: 83vw;
+    height: 89.5vh;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.mainFlex {
+    background: white;
+    border-radius: 24px;
+
+    width: 68.5%;
+}
+
+.filterFlex {
+    background: white;
+    border-radius: 24px;
+    width: 30%;
+
+    margin: 0 0 0 1.5%;
+}
+
+.headFlex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 2%;
+}
+
+.paginateContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 20%;
+
+    list-style: none;
+    cursor: pointer;
+    .pages {
+        padding: 0.15rem 0.4rem;
+    }
+    .activePage {
+        border: 2px solid $orange;
+        border-radius: 4px;
+
+        color: $orange;
+    }
+}
+
+.title {
+    margin: 2vw;
+}
+
+.tableContainer {
+    margin: 2%;
+    width: 96%;
+}
+
+.formContainer {
+    display: flex;
+    margin: 2%;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.table {
+    width: 100%;
+    text-align: left;
+    vertical-align: center;
+    border: none;
+
+    & th {
+        height: 2.5rem;
+        background: #F1F4F8;
+    }
+    & td {
+        height: 2rem;
+        background: white;
+    }
+}

@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  width: 14rem;
+  height: 20rem;
+  margin: 0 1rem 0 0;
+}
+
+svg {
+  margin: 0 0.5rem 0 0;
+}
+/*# sourceMappingURL=NavBar.module.css.map */

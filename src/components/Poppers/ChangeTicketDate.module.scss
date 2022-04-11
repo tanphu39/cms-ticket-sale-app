@@ -1,0 +1,30 @@
+@import '../../assets/css/common.scss';
+
+.title {
+    position: relative;
+    left: 30%;
+    margin: 0 0 1% 0;
+}
+
+.infoFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsFlex {
+    display: flex;
+}
+
+.container {
+    z-index: 1;
+    border-radius: 10px;
+    width: 35vw;
+    height: auto;
+
+    background: white;
+    position: fixed;
+    margin: 0;
+    left: 30vw;
+    top: 25vh;
+    padding: 2%;
+}

@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.red {
+  border-radius: 4px;
+  text-align: left;
+  height: 1rem;
+  width: auto;
+  padding: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #FD5858;
+  border: 1px solid #FD5858;
+  background: #F8EBE8;
+}
+
+.red circle {
+  fill: #FD5858;
+}
+
+.green {
+  border-radius: 4px;
+  text-align: left;
+  height: 1rem;
+  width: auto;
+  padding: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #03AC00;
+  border: 1px solid #03AC00;
+  background: #DEF6E0;
+}
+
+.green circle {
+  fill: #03AC00;
+}
+
+.indigo {
+  border-radius: 4px;
+  text-align: left;
+  height: 1rem;
+  width: auto;
+  padding: 3%;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #919DBA;
+  border: 1px solid #919DBA;
+  background: #EAF1F8;
+}
+
+.indigo circle {
+  fill: #919DBA;
+}
+
+.circle {
+  margin: 0 5% 0 5%;
+}
+/*# sourceMappingURL=Status.module.css.map */

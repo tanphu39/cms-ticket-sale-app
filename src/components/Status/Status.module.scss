@@ -1,0 +1,59 @@
+@import '../../assets/css/common.scss';
+
+.red {
+    border-radius: 4px;
+    text-align: left;
+
+    height: 1rem;
+    width: auto;
+    padding: 3%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $red;
+    border: 1px solid $red;
+    background: $red-b;
+
+    & circle {
+        fill: $red;
+    }
+}
+
+.green {
+    border-radius: 4px;
+    text-align: left;
+
+    height: 1rem;
+    width: auto;
+    padding: 3%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $green;
+    border: 1px solid $green;
+    background: $green-b;
+
+    & circle {
+        fill: $green;
+    }
+}
+
+.indigo {
+    border-radius: 4px;
+    text-align: left;
+
+    height: 1rem;
+    width: auto;
+    padding: 3%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: $indigo;
+    border: 1px solid $indigo;
+    background: $indigo-b;
+
+    & circle {
+        fill: $indigo;
+    }
+}
+
+.circle {
+    margin: 0 5% 0 5%;
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,OAAO,CAAC,uEAAI;ADEZ,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,MAAM;EAEb,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,aAAa;CACjC",
+    "sources": [
+        "Profile.module.scss",
+        "../../assets/css/common.scss"
+    ],
+    "names": [],
+    "file": "Profile.module.css"
+}

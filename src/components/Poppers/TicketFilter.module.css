@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  z-index: 1;
+  border-radius: 10px;
+  width: 35vw;
+  height: auto;
+  background: white;
+  position: fixed;
+  margin: 0;
+  left: 30vw;
+  top: 15vh;
+  padding: 2%;
+  font-family: "Montserrat";
+}
+
+.dateFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+/*# sourceMappingURL=TicketFilter.module.css.map */

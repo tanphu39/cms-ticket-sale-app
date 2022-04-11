@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.title {
+  position: relative;
+  left: 30%;
+  margin: 0 0 1% 0;
+}
+
+.infoFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttonsFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  z-index: 1;
+  border-radius: 10px;
+  width: 35vw;
+  height: auto;
+  background: white;
+  position: fixed;
+  margin: 0;
+  left: 30vw;
+  top: 25vh;
+  padding: 2%;
+}
+/*# sourceMappingURL=ChangeTicketDate.module.css.map */

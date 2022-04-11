@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+.container {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-family: "Montserrat";
+  font-size: 18px;
+  margin: 0;
+  width: auto;
+  height: 2.7rem;
+  padding: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.border {
+  background: white;
+  border: 1px solid #FF993C;
+  font-weight: bold;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+  color: #FF993C;
+}
+
+.border:hover {
+  background: #FF993C;
+  color: white;
+}
+
+.border:hover path {
+  stroke: white;
+}
+
+.border:hover g {
+  opacity: 1;
+}
+
+.fill {
+  background: #FF993C;
+  color: white;
+  font-weight: bold;
+}
+
+.shadow {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0.6;
+  border-radius: 0;
+  cursor: default;
+}
+
+.dots {
+  border: none;
+  background: none;
+  height: 1rem;
+}
+
+.borderless {
+  background: none;
+  border: none;
+  color: #FF993C;
+  font-weight: bold;
+}
+/*# sourceMappingURL=Buttons.module.css.map */

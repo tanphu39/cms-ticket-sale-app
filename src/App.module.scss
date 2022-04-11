@@ -1,8 +1,8 @@
-// @import '../../assets/css/common.scss';
+@import './assets/css/common.scss';
 
 .App {
     height: 100vh;
-    background: #F9F6F4;
+    background: $background;
 }
 
 .Layout {
@@ -19,16 +19,4 @@
     margin: 1% 1% 0 2%;
 }
 
-.pagesContainer {
-    margin: 4% 0 0 0;
-    width: 82.5%;
-    height: 88vh;
-
-    background: white;
-    border-radius: 24px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
